@@ -1,0 +1,850 @@
+<div class="main-content">
+    <div class="lp-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 box-logo">
+                    <img src="../assets/logo.svg" alt="">
+                    <img src="../assets/logo-hoang-ha.svg" alt="">
+                </div>
+                <div class="col-md-6 box-button hidden-mb">
+                    <button (click)="openCard()">
+                        Mở thẻ nhận ưu đãi
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lp-banner">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="banner-title">
+                        Ưu đãi đặc<br> biệt từ SenID
+                    </p>
+                    <p class="banner-sub-title">
+                        Dành riêng cho khách hàng của Hoàng Hà Mobile <br> khi mở thẻ tín dụng VPBank
+                    </p>
+                    <button class="btn-banner" (click)="openCard()">Mở thẻ nhận ưu đãi <img
+                            src="../assets/arrow-white.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lp-banner-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="box-feature">
+                        <div class="feature-item">
+                            <img src="../assets/icon1.svg" alt="">
+                            <p class="feature-text">
+                                Mở thẻ online,<br class="feature-break">
+                                sử dụng ngay,<br class="feature-break">
+                                chỉ với CCCD
+                            </p>
+                        </div>
+                        <div class="feature-item">
+                            <img src="../assets/icon2.svg" alt="">
+                            <p class="feature-text">
+                                Nhận liền Voucher<br class="feature-break">
+                                giảm giá chỉ sau<br class="feature-break">
+                                10 phút đăng ký
+                            </p>
+                        </div>
+                        <div class="feature-item">
+                            <img src="../assets/icon3.svg" alt="">
+                            <p class="feature-text">
+                                Nhận tiếp hoàn tiền<br class="feature-break">
+                                trong vòng 7 ngày<br class="feature-break">
+                                kích hoạt thẻ vật lý
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lp-slider">
+        <div class="keen-slider_one d-flex align-items-center" #sliderRefOne>
+            <div class="laptop-keen keen-slider__slide d-flex justify-content-around">
+                <img class="keen-slider__img uninon" src="assets/union.svg" alt="union-icon">
+                <img class="sendid" src="../assets/senid-slider.svg" alt="">
+                <img class="keen-slider__img" src="assets/union.svg" alt="union-icon">
+                <img class="hoang-ha" src="../assets/hoang-ha-slider.svg" alt="">
+                <img class="keen-slider__img" src="assets/union.svg" alt="union-icon">
+                <img class="vp-bank" src="../assets/vp-bank-slider.svg" alt="">
+
+
+            </div>
+            <div class="laptop-keen laptop-keen2 keen-slider__slide d-flex justify-content-around">
+                <img class="keen-slider__img uninon" src="assets/union.svg" alt="union-icon">
+                <img class="sendid" src="../assets/senid-slider.svg" alt="">
+                <img class="keen-slider__img" src="assets/union.svg" alt="union-icon">
+                <img class="hoang-ha" src="../assets/hoang-ha-slider.svg" alt="">
+                <img class="keen-slider__img" src="assets/union.svg" alt="union-icon">
+                <img class="vp-bank" src="../assets/vp-bank-slider.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="lp-promotion">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="title">
+                        Tổng ưu đãi
+                    </p>
+                    <p class="money">
+                        550.000 đồng
+                    </p>
+                    <p class="description">
+                        Dành cho khách hàng lần đầu mở và kích hoạt thẻ tín dụng <span>VPBank</span><br> theo chương
+                        trình
+                        ưu đãi do <span>SenID</span> và <span>Hoàng Hà Mobile</span> triển khai.
+                    </p>
+                    <div class="box-hr">
+                        <div class="hr">
+
+                        </div>
+                        <div style="margin-top: -10px;">
+                            <p>Mỗi khách hàng tham gia chương trình nhận được tối đa 02 ưu đãi</p>
+                        </div>
+                    </div>
+                    <div class="box-voucher">
+                        <div class="item">
+                            <div class="voucher">
+                                <p class="voucher-title">Mã giảm giá  <br>350.000 đồng</p>
+                                <p class="des">(Giảm 40% trên giá trị đơn hàng)</p>
+                                <span class="step">01</span>
+                            </div>
+                            <p class="content">
+                                Áp dụng khi mua sắm online hoặc trực tiếp tại Hệ thống cửa hàng <span>
+                                    Hoàng Hà Mobile
+                                </span>
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="voucher">
+                                <p class="voucher-title">Hoàn tiền<br> 200.000 đồng</p>
+                                <p class="des unvisible">1</p>
+                                <span class="step">02</span>
+                            </div>
+                            <p class="content">
+                                Số tiền hoàn về tài khoản thanh toán khách hàng cung cấp trên
+                                nền tảng <span>SenID</span>.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box-time hidden-mb">
+                        <div class="item-time">
+                            <p class="title-time tex-l">
+                                Thời gian diễn ra<br> chương trình ưu đãi
+                            </p>
+                            <p class="voucher-time voucher-time1">
+                                Từ 01/01/2024
+                            </p>
+                            <img class="circle-arrow" src="../assets/circle-arrow.svg" alt="">
+                        </div>
+                        <div class="item-time">
+                            <p class="voucher-time">
+                                đến 31/03/2024
+                            </p>
+                            <p class="title-time title-time2 text-right">
+                                Do giới hạn số lượng, chương trình <br>có thể kết thúc trước thời gian dự kiến
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box-time-mb hidden-desktop">
+                        <p class="time-title">Thời gian diễn ra ưu đãi</p>
+                        <p class="time-content">
+                            Từ 01/01/2024<br>đến 31/03/2024
+                        </p>
+                        <p class="time-des">
+                            Do giới hạn số lượng, chương trình có thể kết thúc trước thời gian dự kiến
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lp-step">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="step-title">
+                        Nhận ưu đãi với<br>
+                        5 bước đơn giản
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="box-slider">
+            <div class="container container-no-margin-right">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="slick-slider">
+                            <div class="item-slide">
+                                <div class="wrap-item">
+                                    <div class="box-text">
+                                        <div class="wrap-step">
+                                            <span class="item-step">
+                                                01
+                                            </span>
+                                            <p class="item-title">
+                                                Đăng ký mở thẻ trên SenID
+                                            </p>
+                                        </div>
+                                        <p class="item-des">
+                                            Khách hàng lần đầu nhập số điện thoại để đăng ký mở thẻ tín dụng VPBank tại
+                                            đường
+                                            link chương trình ưu đãi giữa SenID và Hoàng Hà Mobile
+                                        </p>
+                                        <button class="item-btn btn-black" (click)="openCard()">
+                                            Mở thẻ nhận ưu đãi
+                                            <img src="../assets/arrow-white.svg" alt="">
+                                        </button>
+                                    </div>
+                                    <div class="box-img">
+                                        <img src="../assets/step1.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-slide">
+                                <div class="wrap-item">
+                                    <div class="box-text">
+                                        <div class="wrap-step">
+                                            <span class="item-step">
+                                                02
+                                            </span>
+                                            <p class="item-title">
+                                                Hoàn tất mở thẻ thành công
+                                            </p>
+                                        </div>
+                                        <p class="item-des">
+                                            Khách hàng mở thẻ thành công và không thay đổi đường link của chương trình
+                                            ưu đãi giữa SenID và Hoàng Hà Mobile trong suốt quá trình mở thẻ
+                                        </p>
+                                    </div>
+                                    <div class="box-img">
+                                        <img src="../assets/step2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-slide">
+                                <div class="wrap-item">
+                                    <div class="box-text">
+                                        <div class="wrap-step">
+                                            <span class="item-step">
+                                                03
+                                            </span>
+                                            <p class="item-title">
+                                                Đăng nhập SenID
+                                                & nhận voucher
+                                            </p>
+                                        </div>
+                                        <p class="item-des">
+                                            Đăng nhập tài khoản SenID tại <a>https://senid.vn/taikhoan</a> bằng số điện
+                                            thoại mở thẻ
+                                            thành công sau khi hoàn tất mở thẻ để nhận voucher.
+                                        </p>
+                                        <button class="item-btn btn-black" (click)="openCard()">
+                                            Đăng nhập nhận voucher
+                                            <img src="../assets/arrow-white.svg" alt="">
+                                        </button>
+                                    </div>
+                                    <div class="box-img">
+                                        <img src="../assets/step3.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-slide">
+                                <div class="wrap-item">
+                                    <div class="box-text">
+                                        <div class="wrap-step">
+                                            <span class="item-step">
+                                                04
+                                            </span>
+                                            <p class="item-title">
+                                                Nhận thẻ & kích hoạt thẻ vật lý
+                                            </p>
+                                        </div>
+                                        <p class="item-des">
+                                            Nhận và kích hoạt thẻ vật lý được bàn giao bởi đơn vị vận chuyển của VPBank.
+                                            SenID tự động cập nhật thông tin kích hoạt của khách hàng trong vòng từ 3-5
+                                            ngày làm việc kể từ thời điểm kích hoạt.
+                                        </p>
+                                    </div>
+                                    <div class="box-img">
+                                        <img src="../assets/step4.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-slide">
+                                <div class="wrap-item">
+                                    <div class="box-text">
+                                        <div class="wrap-step">
+                                            <span class="item-step">
+                                                05
+                                            </span>
+                                            <p class="item-title">
+                                                Nhập thông tin & nhận hoàn tiền
+                                            </p>
+                                        </div>
+                                        <p class="item-des">
+                                            Nhập thông tin tài khoản thanh toán để nhận hoàn tiền từ SenID tại
+                                            <a>https://senid.vn/taikhoan</a>.
+                                            Hoàn tiền được thực hiện trong vòng 07 ngày kể từ thời điểm kích hoạt thẻ
+                                            vật lý & cung cấp thông tin tài khoản.
+                                        </p>
+                                    </div>
+                                    <div class="box-img">
+                                        <img src="../assets/step5.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="lp-policy">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="box-policy">
+                        <p class="policy-title">
+                            Điều khoản & điều kiện ưu đãi
+                        </p>
+                        <ul>
+                            <li class="show-firt" [class.show]="isShowPolicy">
+                                SenID có quyền yêu cầu khách hàng bồi hoàn giá trị ưu đãi nếu phát hiện khách hàng không
+                                tuân thủ theo điều khoản và điều kiện của chương trình này.
+                            </li>
+                        </ul>
+                        <ul class="toggle-show" [class.show]="isShowPolicy">
+                            <li>
+                                SenID không phải nhà cung cấp sản phẩm hoặc đơn vị vận chuyển thẻ tín dụng
+                                VPBank.
+                                Các sản phẩm và dịch vụ này được cung cấp bởi các nhà cung cấp tương
+                                ứng
+                                theo điều kiện và điều khoản do nhà cung cấp đó quy định. SenID không chịu
+                                trách
+                                nhiệm dưới bất kỳ hình thức nào liên quan tới các sản phẩm và dịch vụ đó.
+                            </li>
+                            <li>
+                                SenID không có bất kỳ trách nhiệm liên quan đến các khoản thuế phát sinh từ ưu đãi. Bất
+                                kỳ
+                                khoản thuế nào hoặc việc chi trả khoản thuế cho cơ quan thuế do việc tiếp nhận ưu đĩa sẽ
+                                là
+                                trách nhiệm của Khách hàng. Khách hàng có trách nhiệm tự tìm hiểu về những khoản thuế
+                                phát
+                                sinh theo quy định của pháp luật hiện hành.
+                            </li>
+                            <li>
+                                SenID có toàn quyền thay đổi ưu đãi bằng ưu đãi khác có giá trị tương đương, nhưng không
+                                vượt quá giá trị đề cập nêu trên trong bất kỳ trường hợp nào.
+                            </li>
+                        </ul>
+                        <p class="text-center">
+                            <button class="btn-more" [class.show]="isShowPolicy" data-toggle="modal"
+                                data-target="#myModal5">
+                                <img src="../assets/arrow-down.svg" alt="">
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lp-creditcard">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="card-title">
+                        Thẻ tín dụng VPBank đang có trên SenID
+                    </p>
+                    <p class="car-des">
+                        Thoải mái <span>lựa chọn</span> loại thẻ <span>theo nhu cầu</span> của bạn chỉ với một lần đăng
+                        ký
+                    </p>
+                    <div class="grid-container">
+                        <!-- Column 1 -->
+                        <div class="grid-item">
+                            <img class="img-card" src="../assets/card1.jpg" alt="">
+                            <div class="box-text">
+                                <h2>Thẻ tín dụng VPBank Z JCB</h2>
+                                <ul>
+                                    <li>Hạn mức đến 500 triệu đồng</li>
+                                    <li>Hoàn 10% giao dịch Ăn uống</li>
+                                    <li>Hoàn 10% giao dịch Giải trí, Fitness</li>
+                                    <li>Hoàn 10% các giao dịch Gọi xe, Đặt đồ ăn</li>
+                                    <li>Hoàn tiền 300.000 đồng trong tháng đầu</li>
+                                    <li>Miễn phí thường niên</li>
+                                    
+                                </ul>
+                            </div>
+                            <button class="btn-card" data-toggle="modal" data-target="#myModal1">
+                                Tìm hiểu thêm
+                                <img src="../assets/arrow-right-black.svg" alt="">
+                            </button>
+                        </div>
+
+                        <!-- Column 2 -->
+                        <div class="grid-item">
+                            <img class="img-card" src="../assets/card2.png" alt="">
+                            <div class="box-text">
+                                <h2>Thẻ tín dụng VPBank StepUp Mastercard</h2>
+                                <ul>
+                                    <li>Hạn mức đến 500 triệu đồng</li>
+                                    <li>Hoàn đến 15% giao dịch trực tuyến</li>
+                                    <li>Hoàn đến 4% giao dịch ăn uống</li>
+                                    <li>Hoàn tiền 300.000 đồng trong tháng đầu</li>
+                                    <li>Giảm đến 30% tại hơn 5.000 cửa hàng</li>
+                                    <li>Miễn phí thường niên năm đầu tiên</li>
+                                </ul>
+                            </div>
+                            <button class="btn-card" data-toggle="modal" data-target="#myModal2">
+                                Tìm hiểu thêm
+                                <img src="../assets/arrow-right-black.svg" alt="">
+                            </button>
+                        </div>
+
+
+                    </div>
+                    <div class="grid-container">
+                        <!-- Column 3 -->
+                        <div class="grid-item">
+                            <img class="img-card" src="../assets/card3.png" alt="">
+                            <div class="box-text">
+                                <h2>Thẻ tín dụng VPBank MC2 MasterCard</h2>
+                                <ul>
+                                    <li>Hạn mức đến 70 triệu đồng</li>
+                                    <li>Tích điểm cao, lên tới 6 điểm/1.000 đồng</li>
+                                    <li>Ưu đãi đổi quà hấp dẫn từ các đối tác </li>
+                                    <li>Ưu đãi trả góp tại hơn 150 đối tác</li>
+                                    <li>Giảm đến 30% tại hơn 5.000 cửa hàng</li>
+                                    <li>Miễn phí thường niên năm đầu tiên</li>
+                                </ul>
+                                <button class="btn-card" data-toggle="modal" data-target="#myModal3">
+                                    Tìm hiểu thêm
+                                    <img src="../assets/arrow-right-black.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <img class="img-card" src="../assets/card4.png" alt="">
+                            <div class="box-text">
+                                <h2>Thẻ tín dụng VNA Platinum MasterCard</h2>
+                                <ul>
+                                    <li>Hạn mức đến 1 tỷ đồng</li>
+                                    <li>Tích luỹ dặm bay, 1.5 dặm/ 26.000 đồng</li>
+                                    <li>Hoàn ngay 1 triệu đồng</li>
+                                    <li>Tặng 1.000 dặm Bông Sen Vàng</li>
+                                    <li>Giảm đến 30% tại hơn 5.000 cửa hàng</li>
+                                    <li>Miễn phí thường niên năm đầu tiên</li>
+                                </ul>
+                                <button class="btn-card" data-toggle="modal" data-target="#myModal4">
+                                    Tìm hiểu thêm
+                                    <img src="../assets/arrow-right-black.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lp-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img class="footer-logo" src="../assets/logo-footer.svg" alt="">
+                    <p class="footer-text">Email liên hệ: <span>cskh@senid.vn</span></p>
+                    <p class="footer-text">© 2023 - Bản quyền thuộc về Công ty <span>Cổ Phần Công Nghệ Paso</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lp-button hidden-desktop" (click)="openCard()" *ngIf="showFloatingButton">
+        <button>
+            Mở thẻ nhận ưu đãi
+        </button>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="myModal1" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <img src="../assets/close-cirle.svg" alt="">
+                </button>
+                <h4 class="modal-title">Thẻ tín dụng Z JCB</h4>
+            </div>
+            <div class="modal-body">
+                <p class="text-bold">
+                    1. Hoàn tiền 10% cho mọi chi tiêu:
+                </p>
+                <ul>
+                    <li>
+                        Hoàn 10% cho giao dịch Ăn uống (*), tối đa 200,000 đồng.
+                    </li>
+                    <li>
+                        Hoàn 10% cho giao dịch Giải trí, Fitness (*), tối đa 200,000 đồng.
+                    </li>
+                    <li>
+                        Hoàn 10% cho các giao dịch Gọi xe, Đặt đồ ăn (*), tối đa 100,000 đồng.
+                    </li>
+                    <li>Áp dụng cho Khách hàng có tổng doanh số giao dịch từ 4 triệu/kỳ sao kê.</li>
+                </ul>
+                <p class="text-normal">
+                    * Danh mục hoàn tiền sẽ tuân theo các mã danh mục được nêu cụ thể tại thể lệ ưu đãi.
+                </p>
+                <p class="text-bold">
+                    2. Ưu đãi trả góp 0% tại mọi cửa hàng:
+                </p>
+                <ul>
+                    <li>
+                        Miễn phí chuyển đổi trả góp 0% kỳ hạn 6 tháng cho các giao dịch chi tiêu (giao dịch quẹt thẻ tại máy POS và giao dịch trực tuyến) thực hiện bằng thẻ chính trong vòng 3 tháng kể từ tháng mở thẻ;
+                    </li>
+                    <li>
+                        Áp dụng cho giao dịch từ 3.000.000 VNĐ trở lên.
+                    </li>
+                </ul>
+                <p class="text-bold">
+                    3. Quà tặng chào mừng:
+                </p>
+                <p class="text-normal">
+                    Hoàn tiền 300.000 VND cho khách hàng mở thẻ chính thẻ tín dụng VPBank Z JCB và đạt tổng doanh số giao dịch từ 2 triệu VND trở lên trong vòng 30 ngày mở thẻ.
+                </p>
+                <p class="text-bold">
+                    4. Miễn phí thường niên:
+                </p>
+                <ul>
+                    <li>
+                        Năm đầu tiên cho thẻ chính khi thẻ chính có từ 3 giao dịch chi tiêu trong vòng 30 ngày đầu sau khi mở thẻ (mỗi giao dịch từ 200.000 VNĐ).
+                    </li>
+                    <li>
+                        Năm tiếp theo cho thẻ chính nếu có tổng chi tiêu của cả thẻ chính và thẻ phụ trong năm hiện tại đạt từ 80 triệu đồng.
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button (click)="openCard()">
+                    Mở thẻ nhận ưu đãi
+                    <!-- <img src="../assets/arrow-white.svg" alt=""> -->
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="myModal2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <img src="../assets/close-cirle.svg" alt="">
+                </button>
+                <h4 class="modal-title">Thẻ tín dụng VPBank StepUp Mastercard</h4>
+            </div>
+            <div class="modal-body">
+                <p class="text-bold">
+                    1. Ưu đãi hoàn tiền:
+                </p>
+                <p class="text-normal">Nhóm 1: Khách hàng có tổng doanh số giao dịch từ 10 triệu/kỳ sao kê trở lên:</p>
+                <ul>
+                    <li>
+                        Chi tiêu trực tuyến: Hoàn 15%, tối đa 600.000 VNĐ
+                    </li>
+                    <li>
+                        Chi tiêu ăn uống: Hoàn 4%, tối đa 200.000 VNĐ
+                    </li>
+                </ul>
+                <p class="text-normal">
+                    Nhóm 2: Khách hàng có tổng doanh số giao dịch dưới 10 triệu/kỳ sao kê:
+                </p>
+                <ul>
+                    <li>
+                        Chi tiêu trực tuyến: Hoàn 6%, tối đa 300.000 VNĐ
+                    </li>
+                    <li>
+                        Chi tiêu ăn uống: Hoàn 2%, tối đa 100.000 VNĐ
+                    </li>
+                    <li>
+                        Hoàn 0.1%, không giới hạn số tiền hoàn cho cả 2 nhóm.
+                    </li>
+                </ul>
+                <p class="text-bold">2. Ưu đãi trả góp 0% tại mọi cửa hàng:</p>
+                <ul>
+                    <li>Miễn phí chuyển đổi trả góp 0% kỳ hạn 6 tháng cho các giao dịch chi tiêu (giao dịch quẹt thẻ tại máy POS và giao dịch trực tuyến) thực hiện bằng thẻ chính trong vòng 3 tháng kể từ tháng mở thẻ;</li>
+                    <li>Áp dụng cho giao dịch từ 3.000.000 VNĐ trở lên.</li>
+                </ul>
+                <p class="text-bold">3. Quà tặng chào mừng:</p>
+                <p class="text-normal">Hoàn tiền 300.000 VNĐ cho khách hàng mở thẻ tín dụng VPBank StepUp trong khoảng thời gian triển khai chương trình và đạt tổng doanh số giao dịch từ 2 triệu VND trở lên trong 30 ngày mở thẻ.</p>
+                <p class="text-bold">4. Miễn phí thường niên:</p>
+                <p class="text-normal">Miễn phí năm đầu tiên cho thẻ chính khi thẻ chính có từ 3 giao dịch chi tiêu trong vòng 30 ngày đầu sau khi mở thẻ (mỗi giao dịch từ 300.000 VNĐ).</p>
+            </div>
+            <div class="modal-footer">
+                <button (click)="openCard()">
+                    Mở thẻ nhận ưu đãi
+                    <!-- <img src="../assets/arrow-white.svg" alt=""> -->
+                </button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="myModal3" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <img src="../assets/close-cirle.svg" alt="">
+                </button>
+                <h4 class="modal-title">Thẻ tín dụng VPBank MC2 MasterCard</h4>
+            </div>
+            <div class="modal-body">
+                <p class="text-bold">1. Tích điểm đổi quà:</p>
+                <ul>
+                    <li>
+                        1.000 VNĐ = 6 điểm cho chi tiêu siêu thị.
+                    </li>
+                    <li>
+                        1.000VNĐ = 3 điểm cho tất cả giao dịch còn lại. 
+                    </li>
+                </ul>
+                <p class="text-bold">2. Ưu đãi trả góp 0% tại mọi cửa hàng:</p>
+                <ul>
+                    <li>
+                        Trả góp tại hơn 150 đối tác trên toàn quốc: Nguyễn Kim, Điện máy Chợ Lớn, Samsung, Cellphones…
+                    </li>
+                    <li>
+                        Miễn phí chuyển đổi trả góp 0% kỳ hạn 6 tháng cho các giao dịch chi tiêu.
+                    </li>
+                    <li>
+                        Hưởng ưu đãi miễn lãi tối đa 45 ngày
+                    </li>
+                    <li>
+                        Áp dụng cho giao dịch từ 3.000.000 VNĐ trở lên.
+                    </li>
+                </ul>
+                <p class="text-bold">
+                    3. Ưu đãi tại đối tác của VPBank:
+                </p>
+                <ul>
+                    <li>
+                        Giảm giá lên đến 30% tại hơn 5.000 cửa hàng ăn uống, du lịch, mua sắm, giải trí…
+                    </li>
+                    <li>
+                        Ẩm thực: Nhà hàng COCA, Thái Blah Blah, Mamma Mia - Itali Restaurant,...
+                    </li>
+                    <li>
+                        Mua sắm: Thời trang Pantio, Owen, Sunfly, Winny, Orchard,...
+                    </li>
+                    <li>
+                        Du lịch: Booking.com, Baysieure.com - Jaya Travel, Novotel Nha Trang,...
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button (click)="openCard()">
+                    Mở thẻ nhận ưu đãi
+                    <!-- <img src="../assets/arrow-white.svg" alt=""> -->
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="myModal4" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <img src="../assets/close-cirle.svg" alt="">
+                </button>
+                <h4 class="modal-title">Thẻ tín dụng VNA Platinum MasterCard</h4>
+            </div>
+            <div class="modal-body">
+                <p class="text-bold">1. Cơ chế tích lũy dặm bay:</p>
+                <ul>
+                    <li>26.000VNĐ = 1 dặm Bông Sen Vàng khi chi tiêu bằng VNĐ</li>
+                    <li>26.000VNĐ = 1.5 dặm Bông Sen Vàng khi chi tiêu bằng ngoại tệ</li>
+                    <li>Tặng 3.000 dặm Bông Sen Vàng nếu khách hàng có tổng doanh số giao dịch hợp lệ đạt 300 triệu trong mỗi năm.</li>
+                </ul>
+                <p class="text-bold">
+                    2. Ưu đãi hoàn tiền:
+                </p>
+                <p class="text-normal">
+                    Hoàn 1 triệu đồng cho chủ thẻ mới khi chi tiêu thẻ đạt 4 triệu đồng trong vòng 30 ngày kể từ ngày mở thẻ.
+                </p>
+                <p class="text-bold">
+                    3. Quà tặng chào mừng:
+                </p>
+                <p class="text-normal">
+                    Tặng 1.000 dặm Bông Sen Vàng cho chủ thẻ mới khi chi tiêu thẻ đạt 4 triệu đồng trong vòng 30 ngày kể từ ngày mở thẻ.
+                </p>
+                <p class="text-bold">
+                    4. Miễn phí thường niên:
+                </p>
+                <ul>
+                    <li>Miễn phí thường niên năm đầu tiên cho thẻ chính nếu thẻ chính có phát sinh giao dịch chi tiêu tối thiểu 2 triệu VNĐ trong vòng 30 ngày kể từ ngày mở thẻ.</li>
+                    <li>Miễn phí thường niên năm tiếp theo cho thẻ chính nếu có tổng doanh số giao dịch của thẻ chính và thẻ phụ trong năm hiện tại đạt từ 150 triệu đồng.</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button (click)="openCard()">
+                    Mở thẻ nhận ưu đãi
+                    <!-- <img src="../assets/arrow-white.svg" alt=""> -->
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="myModal5" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <img src="../assets/close-cirle.svg" alt="">
+                </button>
+                <h4 class="modal-title">Điều khoản & điều kiện ưu đãi</h4>
+            </div>
+            <div class="modal-body modal-policy">
+                <p class="text-normal-policy">
+                    Chương trình mở thẻ tín dụng VPBank trên SenID và nhận khuyến mãi khi mua sản phẩm tại Hoàng Hà
+                    Mobile
+                </p>
+                <p class="policy-sub">
+                    <span>1. Sản phẩm áp dụng:</span> Thẻ tín dụng VPBank
+                </p>
+                <p class="policy-sub">
+                    <span>2. Thời gian áp dụng: 01/01/2024 đến hết 31/03/2024
+                    </span>
+                </p>
+                <p class="policy-sub">
+                    <span>3. Nội dung chương trình:
+                    </span>
+                </p>
+                <ul class="policy-list">
+                    <li>Tặng voucher trị giá 350.000 VNĐ khi khách hàng lần đầu mở thẻ tín dụng VPBank tại
+                        https://mothe.senid.vn/hoanghamobile và hoàn tiền 200.000 VNĐ vào tài khoản khi khách hàng kích
+                        hoạt thành công thẻ cứng.</li>
+                    <li>Voucher được áp dụng khi mua các sản phẩm qua website https://hoanghamobile.com/ hoặc tại cửa
+                        hàng Hoàng Hà Mobile.</li>
+                    <li>Do giới hạn số lượng khuyến mãi, chương trình có thể kết thúc trước thời gian dự kiến.</li>
+                </ul>
+                <p class="policy-sub">
+                    <span>4. Điều kiện nhận voucher:
+                    </span>
+                </p>
+                <ul class="policy-list">
+                    <li>Khách hàng lần đầu tiên mở thẻ tín dụng VPBank, bằng cách mở trực tiếp qua đường dẫn của chương
+                        trình được triển khai bởi SenID và Hoàng Hà Mobile.
+                    </li>
+                    <li>Khách hàng nhận ngay voucher sau khi hoàn thành luồng mở thẻ và được phê duyệt phát hành thẻ.
+                    </li>
+                    <li>Khách hàng phải kích hoạt thẻ cứng thẻ tín dụng VPBank trong vòng 30 ngày kể từ ngày nhận được
+                        thẻ cứng. Khách hàng chỉ nhận được hoàn tiền khi kích hoạt thẻ thành công thẻ cứng.
+                    </li>
+                </ul>
+                <p class="policy-sub">
+                    <span>5. Điều kiện sử dụng voucher:
+                    </span>
+                </p>
+                <ul class="policy-list">
+                    <li>Voucher có hạn sử dụng đến 15/04/2024.
+                    </li>
+                    <li>Áp dụng khi mua hàng qua hình thức trực tuyến tại website https://hoanghamobile.com/ hoặc tại
+                        cửa hàng Hoàng Hà Mobile.</li>
+                    <li>Mỗi khách hàng được nhận tối đa 01 voucher.
+                    </li>
+                    <li>Voucher không có giá trị quy đổi thành tiền mặt hoặc hoàn trả tiền thừa (nếu có).
+                    </li>
+                    <li>Một voucher chỉ được áp dụng được 01 (một) lần duy nhất, không được cấp lại/đổi trả cho
+                        dù có bất kỳ lý do phát sinh liên quan trên đơn hàng.
+                    </li>
+                </ul>
+                <p class="policy-sub">
+                    <span>6. Phạm vi khuyến mại:
+                    </span> Toàn quốc
+                </p>
+                <p class="policy-sub">
+                    <span>7. Phạm vi mở thẻ:
+                    </span>
+                </p>
+                <ul class="policy-list">
+                    <li>Khách hàng lần đầu mở thẻ tín dụng VPBank, đang sinh sống và làm việc tại các tỉnh thành (không
+                        cần dựa theo hộ khẩu):.
+                    </li>
+                    <li>Khách hàng trong độ tuổi từ 18 – 60 tuổi.
+                    </li>
+                </ul>
+                <p class="policy-sub">
+                    <span>8. Điều khoản chương trình khuyến mại:
+                    </span>
+                </p>
+                <ul class="policy-list">
+                    <li>Trong mọi trường hợp, SenID là bên đưa ra quyết định cuối cùng trong việc gửi voucher.
+                    </li>
+                    <li>SenID có quyền yêu cầu khách hàng bồi hoàn giá trị voucher hoặc cấn trừ vào hạn mức thẻ tín dụng
+                        bằng với số tiền của voucher đã cấp nếu phát hiện khách hàng không tuân thủ theo điều khoản và
+                        điều kiện của chương trình này.
+                    </li>
+                    <li>SenID không phải nhà cung cấp sản phẩm hoặc đơn vị vận chuyển. Các sản phẩm và
+                        dịch vụ này được cung cấp bởi các nhà cung cấp tương ứng theo điều kiện và điều
+                        khoản do nhà cung cấp đó quy định. SenID không chịu trách nhiệm dưới bất kỳ hình
+                        thức nào liên quan tới các sản phẩm và dịch vụ đó.
+                    </li>
+                    <li>Thời gian giải quyết bất kỳ khiếu nại liên quan đến Chương trình khuyến mại là 60 ngày kể từ
+                        ngày Khách hàng mở thẻ thành công hoặc kết thúc thời gian Khuyến mại, tuỳ vào thời điểm nào đến
+                        trước.
+                    </li>
+                    <li>SenID không có bất kỳ trách nhiệm nào liên quan đến các khoản thuế phát sinh từ khuyến mãi. Bất
+                        kỳ khoản thuế nào hoặc việc chi trả khoản thuế cho cơ quan thuế do việc tiếp nhận khuyến mãi sẽ
+                        là trách nhiệm của Khách hàng. Khách hàng có trách nhiệm tự tìm hiểu về những khoản thuế phát
+                        sinh theo quy định của pháp luật hiện hành.
+                    </li>
+                    <li>SenID sẽ có toàn quyền thay đổi khuyến mãi tương ứng với từng sản phẩm bằng sản phẩm khuyến mại
+                        khác có giá trị tương đương, nhưng không vượt quá giá trị được đề cập trong Điều của các Điều
+                        Khoản và Điều Kiện trong bất kỳ trường hợp nào.
+                    </li>
+                    <li>Thời hạn quy đổi voucher của khách hàng là 15/04/2024.
+                    </li>
+                    <li>SenID và Đối tác sẽ không giải quyết mọi khiếu nại liên quan đến việc nhận Quà tặng
+                        sau khi hết Thời hạn quy đổi nêu trên và/hoặc sau khi khách hàng đã sử dụng Quà tặng.
+                    </li>
+                </ul>
+                <p class="policy-sub">
+                    <span>9. Thông tin liên hệ:
+                    </span>
+                </p>
+                <ul class="policy-list">
+                    <li>Nếu có bất kỳ thắc mắc khác liên quan đến chương trình khuyến mại, khách hàng vui lòng gửi email
+                        trực tiếp đến cskh@senid.vn.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
